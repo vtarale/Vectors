@@ -34,3 +34,4 @@ class Vector:
 
     def dot(self, vector):
         dot = self.x(vector.x) + self.y(vector.y)
+        return dot
